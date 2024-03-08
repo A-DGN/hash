@@ -1,5 +1,7 @@
 import socket
 import hashlib
+from var import server_port
+
 
 def hash_data(data):
     result = hashlib.sha256(data.encode()).hexdigest()
